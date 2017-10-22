@@ -1,0 +1,186 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 03/09/2017, 17:28:41
+    Author     : marec
+*/
+html{
+    position: relative;
+}
+body{
+    margin: 0;
+    font-family: Arial;
+    
+    
+}
+.topo{
+    height: 34px;
+    background-color: #333333;
+    color: #FFF;
+}
+.topoint{
+    width: 100%;
+    max-width: 1040px;
+    height: 34px;
+    background-color: #333333;
+    margin: auto;
+}
+
+.topoesquerda{
+    width: 50%;
+    height: 34px;
+    float: left;
+     text-align: right;
+    
+    
+}
+.topoesquerda img{
+    float: left;
+     height: 26px;
+    line-height: 26px;
+    margin-left: 10px;
+    padding-bottom: 3px;
+    padding-top: 3px;
+}
+.topodireita{
+    width: 50%;
+    height: 30px;
+    float: right;
+    text-align: right;
+    line-height: 30px;
+    padding-top: 2px;
+    
+}
+.topodireita a{
+    float: right;
+    margin-right: 8px;
+    text-decoration: none;
+    color: #FFF;
+    
+}
+.topodireita a:hover{
+    background-color: darkgray;
+}
+
+/*.topobusca{
+    width: 110px;
+    height: 21px;
+    outline: none;/* tirar a borda azul quando clicar
+}
+*/
+.topoesquerda ul{
+    margin: 0;
+    padding: 0;
+    list-style: none; /*alinhar um do lado do outro*/
+}
+.topoesquerda li{
+    height: 34px;
+    line-height: 34px;
+    float: left;
+    margin-left: 8px;
+    margin-right: 8px;
+}
+.topoesquerda li:hover{
+    background-color: darkgray;
+}
+
+.topoesquerda li a{
+    text-decoration: none; /*tirar sublinhado*/
+    color: #FFF;
+    
+}
+.topoesquerda li .ativo{
+    color: blue;
+}
+
+/* logo e barra menu*/
+
+.topocontato{
+    width: 100%;
+    max-width: 1040px;
+    margin: auto;
+    
+}
+.topocontatoesquerda{
+    width: 30%;
+    height: 95px;
+    float: left;
+    
+}
+.logocontato{
+    height: 85px;
+    float: left;
+    margin-top: 10px;
+}
+
+
+.menu { width: 70%;
+       height: 40px;
+       background-color: #d58512; 
+       float: right;
+       margin-top: 20px;}
+.menuint { width: 100%;
+          max-width: 1040px;
+          height: 40px;
+          margin: auto;}
+.menu ul { margin: 0px;
+          padding: 0px;
+          list-style: none;}
+.menu ul li { float: left;
+             height: 40px;
+             line-height: 42px;
+             padding: 0px 8px 0px 8px;
+
+}
+.menu li:hover{background-color: #ffcc66;}
+.menu li:hover .submenu { display: block;}
+.menu a{ color: #fff; text-decoration: none;}
+.submenu { width: 190px;
+          background-color: #d58512;
+          position: absolute;
+          display: none;
+          margin-top: -2px;}
+.submenuitem { height: 30px;
+              line-height: 30px; 
+              width: 180px;
+              padding-left: 10px;
+              color: #fff;}
+.submenuitem:hover { background-color: #ffcc66;}
+
+
+.submenu2 { 
+    width: 190px; 
+    margin-left: 180px; 
+    margin-top: -30px; 
+    background-color: #d58512; 
+    position: absolute; 
+    display: none;
+}
+.submenuitem:hover .submenu2 { 
+    display: block; 
+    float:left;
+}
+.submenuitem2 { 
+    height: 30px; 
+    line-height: 30px;
+    width: 180px;
+    padding-left: 10px;
+    float: left;
+    
+}
+.submenuitem2:hover { background-color: #ffcc66;}
+
+.rodape{
+    
+    width: 100%;
+    height: 50px;
+    background-color: #333333;
+    bottom:0;
+    position: absolute;  
+    color: #FFF;
+    line-height: 50px;
+    text-align: center;
+}

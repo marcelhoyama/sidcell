@@ -1,0 +1,31 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 24/09/2017, 20:06:51
+    Author     : marec
+*/
+
+.containerintcomputador{
+    width: auto;
+    height: auto;
+    color: #000;
+    background-color: #FFF;
+    margin-bottom: 50px;
+}
+.wigdet{
+    width: 200px;
+    height: 200px;
+    float:left;
+    background-color: #DDD;
+    margin: 10px;
+    margin-left: 80px;
+    padding: 5px;
+}
+
+.vermais{
+    
+    
+}

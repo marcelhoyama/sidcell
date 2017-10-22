@@ -1,0 +1,137 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 03/09/2017, 20:15:51
+    Author     : marec
+*/
+
+.container{
+margin-top: 10px;
+height: auto;
+}
+.containerint{
+    width: 100%;
+    max-width: 1040px;
+        margin: auto;
+        background-color: #999;
+}
+.leftside{
+    width: 753px;
+       float: left;
+   
+}
+.rightside{
+    width: 275px;
+    min-height: 200px;
+    float: left;
+    margin-left: 12px;
+    padding-top: 10px;
+}
+.widget{
+    margin-top: 10px;
+    width: 240px;
+    min-height: 200px;
+    float: left;
+    border:1px solid #CCC;
+    background-color: #FFF;
+    padding: 5px 5px 5px ;
+    margin-right:2px;
+    margin-left: 5px;
+    
+    
+}
+.widget a{
+    text-decoration: none;
+    color: #000;
+    
+}
+.widget_titulo{
+    height: 30px;
+    line-height: 30px;
+    background-color: #DDD;
+    border-bottom: 1px solid #CCC;
+    padding-left: 5px;
+    font-size: 18px;
+    text-align: center;
+}
+.widget_conteudo{
+    
+    text-align: right;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.widget_conteudo img{
+    width: auto;
+    height: 70px;
+    padding: 80px 80px;
+    
+}
+.noticia_item{
+    font-size: 14px;
+    margin: 0px 10px;
+    padding: 10px 0px;
+    text-align: left;
+    border-bottom: 1px solid #CCC;
+    
+}
+.noticia_item a{
+    text-decoration: none;
+    color: #000;
+    
+}
+
+
+/* carrousel */
+
+
+
+
+
+
+
+
+
+.slideshow{
+    height: 335px;
+    background-color: #CCC;
+    overflow: hidden;
+}
+
+.slideshow_area{
+    width: 10000px;
+    height: 335px;
+    background-color: #DDD;
+    transition: all 1s;
+}
+
+.slide{
+    height: 335px;
+    float: left;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.slideinfo{
+    height: 50px;
+    background-image: url('../images/slide.png');
+    background-size: 335px 50px;
+    margin-top: 285px;
+    
+}
+.slideinfo_titulo{
+    font-size: 18px;
+    color: #d58512;
+    padding-top: 15px;
+    padding-left: 20px;
+    float: left;
+}
+.slideinfo_subtitulo{
+    font-size: 12px;
+    color: #d58512;
+    padding-top: 20px;
+    padding-left: 20px;
+    float: left;
+}

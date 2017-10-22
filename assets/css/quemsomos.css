@@ -1,0 +1,60 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 14/09/2017, 22:19:35
+    Author     : marec
+*/
+
+.quemsomoscontainer{
+    width: auto;
+    
+}
+
+.quemsomoscontainerconteudo{
+  width: auto;
+    
+    font-size: 20px;
+    color: #000;
+       
+}
+
+.quemsomoscontainerconteudo2 img{
+    width: 200px;
+    height: 270px;
+    background-color: #DDD;
+    float: left;
+    margin-right:  15px;
+    
+}
+.quemsomoscontainerconteudo2{
+    width: auto;
+   
+    font-size: 20px;
+    color: #000;
+    margin-bottom: 55px;
+    
+    float: left;
+   
+    
+}
+
+.quemsomoscontainerconteudo3{
+    width: auto;
+    height: auto;
+    font-size: 20px;
+    color: #000;
+    margin-bottom: 55px;
+    
+    float: right;
+}
+.quemsomoscontainerconteudo3 img{
+    width: 220px;
+    height: 370px;
+    background-color: #DDD;
+    float: right;
+    margin-left:  15px;
+    
+}
