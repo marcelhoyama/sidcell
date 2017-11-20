@@ -38,7 +38,7 @@
          redes(infraestrutua, segurança, documentação), Sistemas Operacionais, Análise e desenvolvimento a Orientação a Objeto.</p>
         <p>O Meu primeiro desafio
         foi fazer e continuo fazendo melhorias do TCC com o tema que escolhi "sistema de atendimento a clinica de nutrição". Segue o 
-        link do meu portfólio <a href="www.devmg.pe.hu">www.devmg.pe.hu</a> e o segundo desafio é fazer e continuo fazendo e primorando o próprio site da SIDCELL informática. </p>
+        link do meu portfólio <a href="http://www.devmg.pe.hu">www.devmg.pe.hu</a> e o segundo desafio é fazer e continuo fazendo e primorando o próprio site da SIDCELL informática. </p>
         <p><strong>Em horas vagas</strong> presto meus serviços na área tecnologica e tambem
          vou me aprimorando com pesquisas e estudos como desenvolvimento de sistemas(Desktop e Web) e marketing digital.</p>
         

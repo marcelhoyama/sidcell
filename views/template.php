@@ -13,10 +13,11 @@
       <link href="<?php echo BASE_URL; ?>assets/css/style.css" rel="stylesheet">
       <link href="<?php echo BASE_URL; ?>assets/css/topo2.css" rel="stylesheet">
       <link href="<?php echo BASE_URL; ?>assets/css/container.css" rel="stylesheet">
+            <script src="<?php echo BASE_URL; ?>assets/js/slide.js"></script>
       <link href="<?php echo BASE_URL; ?>assets/css/contato.css" rel="stylesheet">
       <link href="<?php echo BASE_URL; ?>assets/css/quemsomos.css" rel="stylesheet">
       <link href="<?php echo BASE_URL; ?>assets/css/computador.css" rel="stylesheet">
-      <script src="<?php echo BASE_URL; ?>assets/js/slide.js"></script>
+
     
    </head>
   
@@ -50,138 +51,89 @@
                            <img src="<?php BASE_URL?>assets/images/logo_banner.png" border="0"width="230"/>
                        </div>
                   </div>
-<div class="menu">
-    <div class="menuint">
-         <ul>
-                 <li><a href="home" >Home</a></li>
-                    <li>
-                        <a href="#">Assistência</a>
-                        <img src="<?php BASE_URL?>assets/images/dropdown.png" border="0" width="10"/>
-                         <div class="submenu">
-                             <div class="submenuitem"> <a href="computador" >Computadores</a>
-                                                                     <img src="<?php BASE_URL?>assets/images/dropdown.png" border="0" width="10"/>
-									<div class="submenu2">
-										<a href="formatacao"><div class="submenuitem2">Formatação</div></a>
-										<a href="limpezasistema"><div class="submenuitem2">Limpeza no Sistema</div></a>
-                                                                                <a href="#"><div class="submenuitem2">Manuten. Preventiva</div></a>
-                                                                                <a href="#"><div class="submenuitem2">Manuten. Corretiva</div></a>
-                                                                                <a href="#"><div class="submenuitem2">Programas</div></a>
-                                                                                <a href="#"><div class="submenuitem2">Remoção de Vírus</div></a>
-                                                                                <a href="#"><div class="submenuitem2">Backup (Salvar dados)</div></a>
-                                                                                <a href="#"><div class="submenuitem2">Recuperação de Dados</div></a>
-                                                                                <a href="#"><div class="submenuitem2">Montagem</div></a>
-                                                                                <a href="#"><div class="submenuitem2">Troca de Peças</div></a>
-									</div>
-								</div>		
-							<div class="submenuitem">Softwares
-                                                         <img src="<?php BASE_URL?>assets/images/dropdown.png" border="0" width="10"/>
-									<div class="submenu2">
-										<a href="#"><div class="submenuitem2">Instalação</div></a>
-										<a href="#"><div class="submenuitem2">Configuração</div></a>
-                                                                                
-									</div>
-                                                         </div>
-							<a href="#"><div class="submenuitem">Celular
-                                                            <img src="<?php BASE_URL?>assets/images/dropdown.png" border="0" width="10"/>
-									<div class="submenu2">
-										<a href="#"><div class="submenuitem2">Formatação</div></a>
-										<a href="#"><div class="submenuitem2">Limpeza no Sistema</div></a>
-                                                                                <a href="#"><div class="submenuitem2">Programas</div></a>
-                                                                                <a href="#"><div class="submenuitem2">Backup (Salvar dados)</div></a>
-                                                                                <a href="#"><div class="submenuitem2">Manutenção</div></a>
-                                                                                 <a href="#"><div class="submenuitem2">Troca de Peças</div></a>
-									</div></div></a>
-							<a href="#"><div class="submenuitem">Periféricos<img src="<?php BASE_URL?>assets/images/dropdown.png" border="0" width="10"/>
-									<div class="submenu2">
-										<a href="#"><div class="submenuitem2">Roteador</div></a>
-										<a href="#"><div class="submenuitem2">Impressora</div></a>
-                                                                                <a href="#"><div class="submenuitem2">Rede</div></a>
-                                                                              
-									</div></div></a>
-							<a href="#"><div class="submenuitem">Redes
-                                                            <img src="<?php BASE_URL?>assets/images/dropdown.png" border="0" width="10"/>
-									<div class="submenu2">
-										<a href="#"><div class="submenuitem2">Clipagem</div></a>
-										<a href="#"><div class="submenuitem2">Infra-Estrutura </div></a>
-                                                                                <a href="#"><div class="submenuitem2">Compartilhamento</div></a>
-                                                                                <a href="#"><div class="submenuitem2">Servidor</div></a>
-                                                                                <a href="#"><div class="submenuitem2"></div></a>
-                                                                                 
-									</div></div></a>
-			</div>
-                                </li>
-                                <li>
-                        <a href="#">Sites</a>
-                        <img src="<?php BASE_URL?>assets/images/dropdown.png" border="0" width="10"/>
-                         <div class="submenu">
-								<div class="submenuitem">Criar
-								 <img src="<?php BASE_URL?>assets/images/dropdown.png" border="0" width="10"/>	
-                                                                    <div class="submenu2">
-										<a href="#"><div class="submenuitem2">Tipo Informativo</div></a>
-										<a href="#"><div class="submenuitem2">submenu 2</div></a>
-									</div>
-								</div>		
-							<a href="#"><div class="submenuitem">Manuntenção</div></a>
-							<a href="#"><div class="submenuitem">Atualizar</div></a>
-							<a href="#"><div class="submenuitem">Sobre Hospedagem</div></a>
-							<a href="#"><div class="submenuitem">submenu 4</div></a>
-			</div>
-                                </li>
-                                <li>
-                        <a href="#">Contratos</a>
-                        <img src="<?php BASE_URL?>assets/images/dropdown.png" border="0" width="10"/>
-                         <div class="submenu">
-                                                         <a href="#"><div class="submenuitem">Basico</div></a>		
-							<a href="#"><div class="submenuitem">Premium</div></a>
-							<a href="#"><div class="submenuitem">Expert</div></a>
-							<a href="#"><div class="submenuitem">Controle</div></a>
-							<a href="#"><div class="submenuitem">Baby</div></a>
-			</div>
-                        
-                                </li>
-                                 <li>
-                        <a href="#">Videos Informativo</a>
-                        <img src="<?php BASE_URL?>assets/images/dropdown.png" border="0" width="10"/>
-                         <div class="submenu">
-								<div class="submenuitem">Sobre Computadores
-                                                                     <img src="<?php BASE_URL?>assets/images/dropdown.png" border="0" width="10"/>
-									<div class="submenu2">
-										<a href="#"><div class="submenuitem2">Lentidão</div></a>
-										<a href="#"><div class="submenuitem2">Vírus</div></a>
-                                                                                <a href="#"><div class="submenuitem2">Travando</div></a>
-									</div>
-								</div>		
-							
-							<a href="#"><div class="submenuitem">Sobre Celular
-                                                             <img src="<?php BASE_URL?>assets/images/dropdown.png" border="0" width="10"/>
-									<div class="submenu2">
-										<a href="#"><div class="submenuitem2">Lentidão</div></a>
-										<a href="#"><div class="submenuitem2">Vírus</div></a>
-                                                                                <a href="#"><div class="submenuitem2">Travando</div></a>
-									</div></div></a>
-							<a href="#"><div class="submenuitem">Sobre Vírus
-                                                             <img src="<?php BASE_URL?>assets/images/dropdown.png" border="0" width="10"/>
-									<div class="submenu2">
-										<a href="#"><div class="submenuitem2">Em Computadores</div></a>
-										<a href="#"><div class="submenuitem2">Em Celulares</div></a>
-                                                                                <a href="#"><div class="submenuitem2">Em Dispositivos</div></a>
-									</div></div></a>
-							<a href="#"><div class="submenuitem">Sobre Manutenção</div></a>
-			</div>
-                             </ul>
-                        </div> 
+     
+                        <div class="menu">
+                            <div class="menuint">
 
-                    </li>
-                   
-                   
-                      </ul>
-           </div>   
-        </div>
-          
-          
-    </div>
-</div>
-       
+
+                                <ul>
+                                   <li><a href="home">Home</a></li>
+                                  
+                                                                <li>
+                                                                    <a href="computador">Assistência</a>
+                                                                        <img src="assets/images/dropdown.png" border="0" width="8" />
+                                                                        <div class="submenu">
+                                                                            <a href="computador"><div class="submenuitem">Computadores
+                                                                                                        <div class="submenu2">
+                                                                                                        
+                                                                                                        <a href="formatacao"><div class="submenuitem2">Formatação</div></a>
+                                                                                                        <a href="limpezasistema"><div class="submenuitem2">Limpeza Sistema</div></a>
+                                                                                                        <a href="#"><div class="submenuitem2">Manuten. Preventiva</div></a>
+                                                                                                        <a href="#"><div class="submenuitem2">Manuten. Corretiva</div></a>
+                                                                                                        <a href="#"><div class="submenuitem2">Instalação Programas</div></a>
+                                                                                                        <a href="#"><div class="submenuitem2">Remoção de Vírus</div></a>
+                                                                                                        <a href="#"><div class="submenuitem2">Backup (Salvar dados)</div></a>
+                                                                                                        <a href="#"><div class="submenuitem2">Recuperação de Dados</div></a>
+                                                                                                        <a href="#"><div class="submenuitem2">Montagem</div></a>
+                                                                                                        <a href="#"><div class="submenuitem2">Troca de Peças</div></a>
+                                                                                                        </div></a>
+                                                                                                 </div>  
+
+                                                                         <!--   <a href="#"><div class="submenuitem">Software
+                                                                                    <div class="submenu2">
+                                                                                        <a href="#"><div class="submenuitem2">Instalação</div></a>
+                                                                                       
+                                                                                    </div></a>
+                                                                                    </div> -->
+                                                                                
+                                                                    <a href="#"><div class="submenuitem">Celular
+                                                                                        <div class="submenu2">
+                                                                                             <a href="#"><div class="submenuitem2">Programas</div></a>
+                                                                                             <a href="#"><div class="submenuitem2">Manutenção</div></a>
+                                                                                             <a href="#"><div class="submenuitem2">Troca de Peças</div></a>
+                                                                                        </div></a>
+
+                                                                                </div>
+                                                                        </div>
+                                                                </li>
+                                                                <li>
+                                                                        <a href="#">Periféricos</a>
+                                                                        <img src="assets/images/dropdown.png" border="0" width="8" />
+                                                                        <div class="submenu">
+                                                                            <a href="#"><div class="submenuitem">Roteador
+                                                                                    <div class="submenu2">
+                                                                                <a href="#"><div class="submenuitem">Instalação</div></a>
+                                                                                <a href="#"><div class="submenuitem">Configuração</div></a>
+                                                                                
+                                                                        </div>
+                                                                                </div>
+                                                                                <a href="#"><div class="submenuitem">Impressora
+                                                                                    <div class="submenu2">
+                                                                                <a href="#"><div class="submenuitem">Instalação</div></a>
+                                                                                <a href="#"><div class="submenuitem">Configuração</div></a>
+                                                                                
+                                                                        </div>
+                                                                                </div>
+                                                                </li>
+                                                                <li><a href="#">Geral</a></li>
+                                                                <li>
+                                                                        <a href="#">Notícias</a>
+                                                                        <img src="assets/images/down-arrow.png" border="0" width="8" />
+                                                                        <div class="submenu">
+                                                                                <a href="#"><div class="submenuitem">Submenu 1</div></a>
+                                                                                <a href="#"><div class="submenuitem">Submenu 2</div></a>
+                                                                                <a href="#"><div class="submenuitem">Submenu 3</div></a>
+                                                                                <a href="#"><div class="submenuitem">Submenu 4</div></a>
+                                                                        </div>
+                                                                </li>
+                                                                <li><a href="#">Redes</a></li>
+                                                                <li><a href="#">Videos</a></li>
+                                 </ul>
+
+                            </div>
+                        </div>
+         </div>
+       </div>   
   <body>
       
       <div class="container">
