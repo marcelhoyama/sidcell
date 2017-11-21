@@ -7,7 +7,7 @@ class usuarios extends model {
 //metodo ver se usuario esta logado ou se nao direciona para logar 
     public function verificarLogin() {
         // verifica se nao existir session ou se existir e esta vazio  a session
-        if (!isset($_SESSION['nutricaolg']) || (isset($_SESSION['nutricaolg']) && empty($_SESSION['nutricaolg']))) {
+        if (!isset($_SESSION['login_id']) || (isset($_SESSION['login_id']) && empty($_SESSION['login_id']))) {
             header("Location:" . BASE_URL . "login");
             exit;
         }
@@ -42,16 +42,22 @@ class usuarios extends model {
              $sql = $this->db->query($sql);
              if ($sql->rowCount() > 0) {
                 $dado = $sql->fetch(); //pega o primeiro resultado da lista
-                $_SESSION['nutricaolg'] = $dado['id'];
+                $_SESSION['login_id'] = $dado['id_usuario'];
                 $_SESSION['nome_usuario'] = $dado['nome'];
                 $status=$dado['status'];
+               
+               
+                
                  if(!empty($status)){
-                    if($status=='Ativo'){
-                         header("Location:" . BASE_URL . "menuprincipal");
+                        if($status=='Ativo'){
+                    
+                         header("Location:" . BASE_URL . "menuPrincipal");
                           exit;
                     }else{
+                         
                         return "Bloqueado! Verificar com a Administração!";
                     }
+                   
                 }
                
             } else {
@@ -59,7 +65,7 @@ class usuarios extends model {
             }
         } catch (PDOException $e) {
 
-            echo "Falhou:" . $e->getMessage();
+            echo "Falhou dologin:" . $e->getMessage();
         }
     }
 

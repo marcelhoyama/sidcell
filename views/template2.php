@@ -13,37 +13,12 @@
       <link href="<?php echo BASE_URL; ?>assets/css/style.css" rel="stylesheet">
       <link href="<?php echo BASE_URL; ?>assets/css/topo2.css" rel="stylesheet">
       <link href="<?php echo BASE_URL; ?>assets/css/container.css" rel="stylesheet">
-      <script src="<?php echo BASE_URL; ?>assets/js/slide.js"></script>
-      <link href="<?php echo BASE_URL; ?>assets/css/contato.css" rel="stylesheet">
-      <link href="<?php echo BASE_URL; ?>assets/css/quemsomos.css" rel="stylesheet">
-      <link href="<?php echo BASE_URL; ?>assets/css/computador.css" rel="stylesheet">
+
 
     
    </head>
   
-       <div class="topo">
-        <div class="topoint">
-            <div class="topodireita">
-                
-           <a href="https://webmail.hostinger.com.br/auth">WEBMAIL</a>
-            <a>| </a>
-            <a href="login">Login </a>   
-          
-             </div>
-        <div class="topoesquerda">
-             <ul>
-                    <li><a href="home" >Home</a></li>
-                    <li><a href="quemsomos">Quem Somos</a></li>
-                    <li><a href="contato">Contato</a></li>
-             </ul>
-             
-                <a href="https://www.youtube.com/marcelhoyama"><img src="<?php BASE_URL ?>assets/images/youtubecolor.png" border="0" width="26" height="26" /></a>   
-            <a href="https://m.facebook.com/marcelinfo/"><img src="<?php BASE_URL ?>assets/images/facebookcolor.png" border="0" width="26" height="26" /></a>  
-            
-        </div>
-             
-    </div>
-</div>
+      
        <div class="bannercontato">
           <div class="topocontato">
                 <div class="topocontatoesquerda">
@@ -60,10 +35,10 @@
                                    <li><a href="home">Home</a></li>
                                   
                                                                 <li>
-                                                                    <a href="computador">Assistência</a>
+                                                                    <a href="#">Cadastrar</a>
                                                                         <img src="assets/images/dropdown.png" border="0" width="8" />
                                                                         <div class="submenu">
-                                                                            <a href="computador"><div class="submenuitem">Computadores
+                                                                            <a href="computador"><div class="submenuitem">Cliente
                                                                                                         <div class="submenu2">
                                                                                                         
                                                                                                         <a href="formatacao"><div class="submenuitem2">Formatação</div></a>
@@ -86,7 +61,7 @@
                                                                                     </div></a>
                                                                                     </div> -->
                                                                                 
-                                                                    <a href="#"><div class="submenuitem">Celular
+                                                                    <a href="#"><div class="submenuitem">Ordem Serviço
                                                                                         <div class="submenu2">
                                                                                              <a href="#"><div class="submenuitem2">Programas</div></a>
                                                                                              <a href="#"><div class="submenuitem2">Manutenção</div></a>
@@ -97,12 +72,12 @@
                                                                         </div>
                                                                 </li>
                                                                 <li>
-                                                                        <a href="#">Periféricos</a>
+                                                                        <a href="#">Pesquisar</a>
                                                                         <img src="assets/images/dropdown.png" border="0" width="8" />
                                                                         <div class="submenu">
-                                                                            <a href="#"><div class="submenuitem">Roteador
+                                                                            <a href="#"><div class="submenuitem">Cliente
                                                                                     <div class="submenu2">
-                                                                                <a href="#"><div class="submenuitem">Instalação</div></a>
+                                                                                <a href="#"><div class="submenuitem">Ordem Serviço</div></a>
                                                                                 <a href="#"><div class="submenuitem">Configuração</div></a>
                                                                                 
                                                                         </div>
@@ -137,14 +112,14 @@
   <body>
       
       <div class="container">
-        <div class="containerint">
+        
 <!--  aqui onde vai o corpo das paginas do sistema -->
 <?php  $this->loadViewInTemplate($viewName, $viewData); ?>
 
 
 
 
-        </div>
+        
       </div>
 </body>
 

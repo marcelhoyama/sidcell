@@ -48,7 +48,7 @@
             
           
             <div class="widget">
-                <a href="#" ><div class="widget_titulo">Assistência</div>
+                <a href="computador" ><div class="widget_titulo">Assistência</div>
                 <div class="widget_conteudo">
                    
                      <img src="<?php BASE_URL; ?>assets/images/assistencia.png" border="0" width="240">
